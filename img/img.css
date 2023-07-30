@@ -1,0 +1,83 @@
+* {
+    margin:  10;
+}
+
+a {
+    color: #000000 
+}
+
+a.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgb(57, 57, 80);
+    display: inline-block;
+}
+
+figure.foto-legenda img {
+    width: 240px;
+}
+
+ul.nav-list {
+    margin: 50px;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+ul.nav-list li {
+    display: inline;
+    display: inline-block;
+}
+
+ul.nav-list li a {
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block; 
+}
+
+ul.nav-list li a:hover {
+    background-color: #444242;
+}
+
+.primeiro-texto {
+    text-align: center;
+    background-color: #b4a7a7;
+}
+
+nav {
+    background: url(../img/torre_capa.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 140vh;
+    
+    }
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.image {
+    float: none;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.redes img{
+    display: flex;
+    width: 200px;
+}
